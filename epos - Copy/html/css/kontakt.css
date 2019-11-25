@@ -1,0 +1,67 @@
+h1{
+    text-align: center;
+    color: white;
+}
+
+body{
+    background-color: #020609;
+    background-image: url("img/lokacija4.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.naslov #wrap {
+    background-color: rgb(34, 33, 33);
+    /* background-image: url("img/lokacija1.jpeg");
+    background-position: center;
+    background-size: 60%; */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
+
+
+  .naslov img{
+      position: absolute;
+      top: 10px;
+      height: 60px;
+  }
+
+.kontakt{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap:300px;
+    justify-content: center;
+    text-align: center;
+    margin-top: 80px;
+}
+
+.kontakt p{
+    text-align: left;
+    font-size: 18px;
+}
+
+.dva h2{
+    margin-top: 30px;
+    text-align: center;
+}
+
+.dva h3{
+    font-size: 25px;
+}
+
+/* .lokacija{
+    justify-content: center;
+    text-align: center;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap:300px;
+    margin-top: 50px;
+} */
+.mapouter{
+    position: absolute;
+    margin-left: 500px;
+}

@@ -1,0 +1,63 @@
+body{
+    background-color: #020609;
+}
+
+.grid-container {
+    margin-top: 80px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    left: 15px;
+    right: 15px;
+    grid-gap: 150px;
+    padding: 10px;
+    justify-content: center;
+    text-align: center;
+  }
+
+  h2{
+      color: white;
+  }
+
+
+
+.naslov #wrap {
+    background-color:#141D22;
+    background-image: url("img/dorucak.jpeg");
+    background-position: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
+
+.naslov img{
+    position: absolute;
+    top: 10px;
+    height: 60px;
+}
+
+h1{
+    text-align: center;
+    color: black;
+}
+
+.container1 img{
+    width: 300px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 10%;
+}  
+
+.container1{
+    
+    display: grid;
+    justify-content: center;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 80px;
+    padding-top: 60px;
+}
+
+p{
+    color: white;
+}
