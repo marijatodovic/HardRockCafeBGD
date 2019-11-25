@@ -1,0 +1,108 @@
+body{
+    background-image: url("img/pozadina11.jpg");
+    background-repeat: no-repeat;
+    background-position:  center;
+    background-color:#020609;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin:0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+h2{
+    margin: 0;
+    padding-top: 20px;
+    background: 	black;
+    color: #fff;
+    font-size: 18px;
+    letter-spacing: 2px;
+    text-align: center;
+    align-content: center;
+    text-transform: uppercase;
+    border: 1px solid ;
+    height: 50px;
+}
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+p{
+    color: white;
+}
+
+
+.naslov #wrap {
+    background-color:	#141D22;
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
+
+  .naslov img{
+    position: absolute;
+    top: 10px;
+    height: 60px;
+}
+
+.list{
+    margin-top: 30px;
+    font-size: 20px;
+    color: white;
+}
+
+ul{
+    
+    margin: 0;
+    padding: 10px 10px;
+    /* border: 4px; */
+    border-top: none;
+}
+
+ul li{
+    list-style: none;
+    padding: 0;
+    font-size: 30px;
+    height: 100px;
+    width: 200px;
+}
+
+ul li span.list{
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    padding: 0 5px;
+    transition: 0.5s;
+
+}
+
+ul li input[type="checkbox"]:checked ~ span.list{
+    color: rgb(209, 36, 36);
+}
+
+ul li input[type="checkbox"]:hover ~ span.list{
+    cursor: pointer;
+}
+
+
+button{
+    position: absolute;
+    margin-top: 250px;
+    height: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+p{
+    font-size: 25px;
+    font-style: italic;
+    text-align: center;
+}

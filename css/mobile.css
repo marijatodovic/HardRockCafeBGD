@@ -1,0 +1,188 @@
+@media only screen and (max-width: 950px) {
+    body{
+        margin: 10px;
+        
+    }
+
+    .meni{
+        display: none;
+    }
+    #meni-ikonica{
+        display: inline-block;
+        position: absolute;
+        top: 70px;
+        left: 450px;
+        transform: scale(2);
+    }
+    #zatvori{
+        position: fixed;
+        top: 100px;
+        left: 300px;
+
+        z-index: 99999;
+    }
+    .meni {
+     background-color:rgb(255, 255, 255);
+     position: fixed;
+     top: 50px;
+     left: 220px;
+     
+    }
+    .meni a:hover{
+        background-color: chocolate;
+        cursor: pointer;
+        transition: 0.5s;
+    }
+    .meni ul li{
+     display: flex;
+     flex-direction: row;
+     font-size: 50px;
+     color: white;
+    }
+    .meni ul{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-left: -20px;
+        padding-top: 150px;
+        color: white;
+    }
+       .deca img{
+       
+        margin: 10px 0;
+        padding: 5px;
+        display: flex;
+        flex-direction: column;
+       }
+
+       .Info{
+        width: 500px;
+        margin: 10px;
+        display: flex;
+        flex-direction: row;
+        
+        
+       }
+       
+       h1{
+           align-self: center;
+           width: 500px;
+       }
+       
+      #wrap{
+          background: rgb(255, 255, 255);
+          width: 100%;
+      }
+       .deca img{
+           width: 100px;
+           height: 100px;
+           padding-top: 150px;
+       }
+       #wrap2{
+           flex-direction: row;
+       }
+       #futer{
+           display: grid;
+           grid-template-columns: 20% 20% auto;
+        background: white;
+       }
+       .slika{
+           padding-left: 50px;
+       }
+       form{
+           color: black;
+       }
+       .omotac{
+           display: flex;
+           flex-direction: column;
+           text-align: center;
+           align-content: center;
+           width: 500px;
+       }
+
+       .naslov img{
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 50px;
+       }
+
+       input[type=submit]{
+           height: 20px;
+           width: 30px;
+       }
+       .forma input[type=submit]{
+           margin-top: 10px;
+       }
+       .naslov h1{
+           font-size: 20px;
+       }
+
+       .kontakt p{
+           font-size: 11px;
+       }
+
+       .kontakt h2{
+           font-size: 15px;
+       }
+
+       .dva h2{
+           font-size: 15px;
+           
+       }
+
+       iframe{
+           position: absolute;
+           height: 50px;
+           width: 50px;
+           left: 0;
+       }
+
+       .kontakt{
+           display: flex;
+           flex-direction: row;
+           width: 395px;
+       }
+
+       .naslov #wrap{
+           justify-content: center;
+           text-align: center;
+           padding-left: 88px;
+       }
+
+       .grid-container{
+           max-width: 800px;
+           grid-gap: 10px;
+           font-size: 10px;
+           grid-template-columns: auto auto auto auto;
+           width: 450px;
+       }
+
+       .grid-container1{
+        max-width: 800px;
+        grid-gap: 5px;
+        font-size: 10px; 
+        grid-template-columns: auto auto auto auto; 
+        width: 450px;
+       }
+
+       .container1 img{
+           height: 60px;
+           width: 60px;
+       }
+
+       .container1{
+        display: grid;
+        justify-content: center;
+        grid-template-columns: auto auto auto auto;
+        grid-gap: 70px;
+        padding-top: 6px;
+        width: 450px;
+       }
+
+    
+
+
+
+
+}
