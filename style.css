@@ -1,0 +1,217 @@
+
+
+.meni ul {
+    height: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    list-style-type: none;
+    margin-left: 50%;
+    padding-top: 0;
+}
+.meni ul li {
+    font-size: 30px;
+    padding: 10px;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    font-family: cursive;
+}
+
+    
+#wrap{
+    background: rgb(0, 0, 0);
+    display: grid;
+    grid-template-rows: 4em 80px;
+    /* bottom: 15px; */
+    position: sticky;
+    /* top: 0; */
+    border-radius: 3px; 
+    top: 0;
+    left: 0;
+    width: 100%;
+ }
+ #head-levo{
+     align-self: flex-start;
+     padding-bottom: 25px;
+ }
+ .meni{
+     align-self: flex-end;
+ }
+img {
+    height: 180px;
+    width: 180px;
+    padding-top: 0;
+    padding-left: 15px;
+}    
+.meni a {
+    color: rgb(54, 54, 54);
+    text-decoration: none;
+    padding: 10px;
+    transition: 1s;
+}
+
+.meni a:hover {
+    background-color: rgba(241, 28, 28, 0.979);
+    padding: 30px;
+}
+#wrap2 {
+    background: rgb(255, 255, 255);
+    display: flex;
+    grid-template-columns: auto;
+    height: 100%;
+}
+#middle {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-content: space-between;
+    padding: 5% 5% 5%;
+}
+#middle .deca {
+    height: 400px;
+    padding: 0 2em;
+    
+}
+.HRC {
+    width: 100%;
+    height: 100%;
+  
+    
+}
+h1{
+    text-align: center;
+    font-family: cursive 
+}
+p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.Info {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    
+    background: rgb(255, 255, 255);
+}
+h2{
+    font-family: cursive;
+    text-align: center;
+}
+
+#vrh { 
+    width: 30%;
+    padding: 10px;
+}
+#sredina{
+    width: 30%;
+    padding: 10px;
+}
+#dno{
+    width: 30%;
+    padding: 10px;
+}
+#vrh h2 {
+    font-family: cursive;
+}
+#sredina h2{
+    font-family: cursive;
+}
+#dno h2{
+    font-family: cursive;
+}
+#middle1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 5% 12%;
+}
+#top{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 5% 12%;
+}
+#bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 5% 12%;
+}
+button {
+    background: rgb(255, 202, 55);
+    color: black;
+    border: groove rgb(255, 202, 55);
+    border-radius: 3px;
+    height: 50px;
+    font-family: cursive;
+}
+button:hover {
+    cursor: pointer;
+    background: rgba(241, 28, 28, 0.979);
+    transition: 0.5s;
+}
+.deca{
+    width: 50%;
+    padding: 5px 2em;
+    background: rgb(255, 255, 255);
+    
+}
+.deca img{
+    width: 80%;
+}
+
+.deca h2{
+    font-family: cursive
+}
+.deca p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+#futer{
+    display: grid;
+    grid-template-columns: 40% 40% auto;
+    justify-content: start;
+    padding-top: 5px;
+    padding-left: 5px;
+    background: black;
+    bottom: 15px;
+    color: white;
+}
+input[type=text]{
+    width: 72%;
+    height: 40px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+}
+input[type=submit]{
+    background: rgb(255, 202, 55);
+    height: 30px;
+    width: 20%;
+    border-radius: 20px;
+    border: rgb(255, 202, 55)
+}
+
+input[type=submit]:hover{
+    cursor: pointer;
+    background: rgba(241, 28, 28, 0.979);
+    border: rgba(241, 28, 28, 0.979);
+    transition: 0.5s;
+}
+.slika{
+    width: 100%;
+    height: 100%;
+    padding: 5px 2em;
+    grid-column-start: 3;
+    
+}
+.forma{
+    padding-top: 25px;
+    padding-left: 25px;
+}
+#meni-ikonica{
+    color: rgb(0, 0, 0);
+    display: none;
+}
+#zatvori{
+    display: none;
+}

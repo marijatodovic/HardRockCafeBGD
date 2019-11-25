@@ -1,0 +1,69 @@
+.grid-container {
+    margin-top: 80px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: grid;
+    grid-template-columns: 190px 180px 170px 190px;
+    left: 15px;
+    right: 15px;
+    grid-gap: 200px;
+    padding: 10px;
+    justify-content: center;
+    text-align: center;
+  }
+
+  body{
+      background-color: #020609;
+  }
+
+  .naslov #wrap {
+    background-color:rgb(154, 140, 114);
+    background-image: url("img/voce.jpg");
+    background-position: center;
+    background-size: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
+
+  .naslov img{
+      position: absolute;
+      top: 10px;
+      height: 60px;
+  }
+
+  h1{
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      text-align: center;
+      color: black;
+      
+  }
+
+
+  .container1 img{
+    width: 300px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 10%;
+  }  
+
+  .container1{
+    
+    display: grid;
+    justify-content: center;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 80px;
+    padding-top: 6px;
+  }
+
+  p{
+    color: white;
+  }
+
+  h2{
+    color: white;
+  }
+
+
+
+
